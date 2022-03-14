@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Life</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/jQuery.min.js"></script>
+    <script src="./js/jqindex.js"></script>
+    <script src="./fonts/iconfont.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/flexible.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- the is password section -->
+    <div class="mask"></div>
+    <div class="enter_password">
+        <div class="close">
+            <span class="iconfont"><a href="javascript:void(0);">&#xe6c9</a></span>
+        </div>
+        <h3>欢迎男神女神</h3>
+        <div class="password">
+            <label for="password">Password:</label>
+            <input type="text" placeholder="Please enter the password" id='password'>
+        </div>
+        <button>Submit</button>
+    </div>
+    <!-- mouse effect -->
+    <img class="mouse_effect" src="./images/mouse.gif" alt="">
+    <!-- 这是侧边栏 -->
+    <div class="sidebar">
+        <div class="box">
+            <li><a href="">推荐</a></li>
+            <li><a href="">活动</a></li>
+            <li class="return_top"><a href="javascript:;">顶部</a></li>
+            <li><a href="">反馈</a></li>
+            <img src="./images/sidebar.png" alt="">
+        </div>
+    </div>
+    <!-- 这是头部部分 -->
+    <div class="position_box">
+        <!-- 这是快捷导航栏shortcut -->
+        <div class="shortcut">
+            <div class="logo">
+                <a href="">
+                    <img class="logo_border" src="./images/logo_border.png" alt="">
+                    <img src="./images/logo.gif" alt="">
+                </a>
+            </div>
+            <div class="shortcut_info">
+                <ul>
+                    <li><a href="#">登陆</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li><a href="#">消息</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 这是header部分 -->
+        <div class="header">
+            <img src="./images/header.png" alt="">
+            <div class="words">
+                <h4>My Html</h4>
+                <p>This is the index</p>
+                <div class="learn_more"><a href="#">learn_more</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 这是导航介绍模块 -->
+    <div class="nav w">
+        <div class="nav_header">
+            <h5>The nav session</h5>
+            <p>This is the description</p>
+        </div>
+        <div class="nav_body clearfix">
+            <ul>
+                <li>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-learning"></use>
+                        </svg>
+                    </a>
+                    <h4>Learning</h4>
+                    <div class="description">This is learning section,write more words to show that there is an indent.</div>
+                </li>
+                <li>
+                    <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-heartcard"></use>
+                    </svg></a>
+                    <h4>Life</h4>
+                    <div class="description">This is life section,write more words to show that there is an indent.</div>
+                </li>
+                <li>
+                    <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-xiuxian"></use>
+                    </svg></a>
+                    <h4>Entertainment</h4>
+                    <div class="description">This is Entertainment section,write more words to show that there is an indent.</div>
+                </li>
+                <li>
+                    <a href="#"><svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-ziyuan"></use>
+                    </svg></a>
+                    <h4>Others</h4>
+                    <div class="description">This is others section,write more words to show that there is an indent.</div>
+                </li>
+            </ul>
+        </div>
+
+
+
+    </div>
+    <!-- 这是轮播图(carousel)和图片模块  -->
+    <div class="carousel_and_pictures w">
+        <div class="carousel">
+            <a href="javascript:;" class="arrow_right">
+                <span class="iconfont">&#xe743;</span>
+            </a>
+            <a href="javascript:;" class="arrow_left">
+                <span class="iconfont">&#xe744;</span>
+            </a>
+            <ul>
+                <li>
+                    <a href="javascript:;"><img src="./images/carousel_and_pictures/carousel_1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/carousel_and_pictures/carousel_2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/carousel_and_pictures/carousel_3.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href="javascript:;"><img src="./images/carousel_and_pictures/carousel_4.jpg" alt=""></a>
+                </li>
+            </ul>
+            <ol>
+
+            </ol>
+        </div>
+        <div class="static_pic">
+            <a href="javascrpt:;">
+                <img src="./images/carousel_and_pictures/static_pic.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 这是主题内容 -->
+    <!-- life -->
+    <div class="section w" id="life">
+        <div class="pic">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-eyu"></use>
+            </svg>
+        </div>
+        <h4>Life</h4>
+        <p>This Is The Life Section</p>
+        <div class="section_body">
+            <ul class="clearfix">
+                <li style="width: 775px;">
+                    <a href="#">
+                        <img src="./images/diary.jpg" alt="" style="width: 840px;">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <img src="./images/todo_list.jpg" alt="">
+                    </a>
+                </li>
+                <li style="margin-right: 75px;">
+                    <a href="">
+                        <img src="./images/life_1.jpg" alt="">
+                    </a>
+                </li>
+                <li style="width: 775px;">
+                    <a href="">
+                        <img src="./images/life_pic.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="view_all">
+            <button>view all types</button>
+        </div>
+    </div>
+    <!-- learning -->
+    <div class="section w">
+        <div class="pic">
+            <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-niao"></use>
+            </svg></div>
+        <h4>Learning</h4>
+        <p>This Is The Learning Section</p>
+        <div class="section_body">
+            <ul class="clearfix">
+                <li>
+                    <a href="">
+                        <img src="./images/learning.jpg" alt="">
+                    </a>
+                </li>
+                <li style="width: 775px;">
+                    <a href="./learning/mechanics_of_materials.html" target="_blank">
+                        <img src="./images/learning_1.jpg" alt="">
+                    </a>
+                </li>
+                <li style="margin-right: 75px;width: 775px;">
+                    <a href="">
+                        <img src="./images/learning_2.jpg" alt="">
+                    </a>
+                </li>
+                <li style="margin-right: 0;">
+                    <a href="">
+                        <img src="./images/learning_3.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="view_all">
+            <button>view all types</button>
+        </div>
+    </div>
+    <!-- Entertainment -->
+    <div class="section w">
+        <div class="pic"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-haitun"></use>
+            </svg></div>
+        <h4>Entertainment</h4>
+        <p>This Is The Entertainment Section</p>
+        <div class="section_body">
+            <ul class="clearfix">
+                <li>
+                    <a href=""><img src="./images/entertainment_1.jpg" alt=""></a>
+                </li>
+                <li style="width: 775px;">
+                    <a href=""><img src="./images/movies.jpg" alt=""></a>
+                </li>
+                <li style="width: 775px;margin-right: 75px;">
+                    <a href="">
+                        <img src="./images/teleplay.jpg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href=""><img src="./images/music.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <div class="view_all">
+            <button>view all types</button>
+        </div>
+    </div>
+    <!-- others -->
+    <div class="section w">
+        <div class="pic"><svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-Artboard"></use>
+            </svg></div>
+        <h4>Others</h4>
+        <p>This Is The Others Section</p>
+        <div class="section_body">
+            <ul class="clearfix">
+                <li>
+                    <a href=""><img src="./images/other_1.jpg" alt=""></a>
+                </li>
+                <li style="width: 775px;">
+                    <a href="">
+                        <img src="./images/other.jpg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="view_all">
+            <button>view all types</button>
+        </div>
+    </div>
+    <!-- 这是message部分 -->
+    <div class="message">
+        <img src="./images/message.png" alt="">
+        <form action="">
+            <ul>
+                <li><label for="name">姓名：</label>
+                    <input type="text" name="name" id="name"></li>
+                <li><label for="phone">电话：</label>
+                    <input type="text" name="phone" id="phone"></li>
+                <li><label for="mail">邮箱：</label>
+                    <input type="text" name="mail" id="mail"></li>
+                <li>
+                    <label for="content">内容：</label>
+                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                </li>
+
+            </ul>
+            <button>提交</button>
+        </form>
+        <div class="liuyan">
+            <em style="font-style: normal;font-size: 36px;color: #000000;">留言</em> MESSAGE
+            <div class="line"></div>
+        </div>
+
+    </div>
+    <!-- 这是footer部分 -->
+    <div class="footer">
+        <div class="content w">
+            <div class="footer_top">
+                <ul>
+                    <li>
+                        <span class="iconfont">&#xe758</span>
+                        <div class="description">Mars</div>
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe7f0</span>
+                        <div class="description">Contact:1622352990@qq.com</div>
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe682</span>
+                        <div class="description">Telephone:none</div>
+                    </li>
+                    <li class="last_li">
+                        <span class="iconfont">&#xe745</span>
+                        <div class="description">Fax:none</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_bottom">
+                <ul>
+                    <li><a href="#"><span class="iconfont">&#xe686</span></a></li>
+                    <li><a href="#"><span class="iconfont">&#xe62e</span></a></li>
+                    <li><a href="#"><span class="iconfont">&#xe7b3</span></a></li>
+                    <li class="last_li"><a href="#"><span class="iconfont">&#xf1bf</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

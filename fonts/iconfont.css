@@ -1,0 +1,169 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1629517673681') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconfonticon6:before {
+  content: "\e62e";
+}
+
+.icon-shutdown:before {
+  content: "\e6a8";
+}
+
+.icon-phone:before {
+  content: "\e682";
+}
+
+.icon-guanbi:before {
+  content: "\e67f";
+}
+
+.icon-Artboard:before {
+  content: "\edc9";
+}
+
+.icon-eyu:before {
+  content: "\e619";
+}
+
+.icon-zhuye:before {
+  content: "\e655";
+}
+
+.icon-xiuxian:before {
+  content: "\e608";
+}
+
+.icon-google:before {
+  content: "\f1bf";
+}
+
+.icon-letter:before {
+  content: "\e7f0";
+}
+
+.icon-niao:before {
+  content: "\e60e";
+}
+
+.icon-ziyuan:before {
+  content: "\e640";
+}
+
+.icon-facebook:before {
+  content: "\e686";
+}
+
+.icon-other:before {
+  content: "\e61a";
+}
+
+.icon-editor:before {
+  content: "\e6f6";
+}
+
+.icon-play:before {
+  content: "\e701";
+}
+
+.icon-favorites-fill:before {
+  content: "\e721";
+}
+
+.icon-add:before {
+  content: "\e742";
+}
+
+.icon-arrow-right:before {
+  content: "\e743";
+}
+
+.icon-arrow-left:before {
+  content: "\e744";
+}
+
+.icon-browse:before {
+  content: "\e745";
+}
+
+.icon-cart-full:before {
+  content: "\e746";
+}
+
+.icon-category:before {
+  content: "\e747";
+}
+
+.icon-loading:before {
+  content: "\e756";
+}
+
+.icon-listing-content:before {
+  content: "\e757";
+}
+
+.icon-map:before {
+  content: "\e758";
+}
+
+.icon-pic:before {
+  content: "\e75c";
+}
+
+.icon-seleted:before {
+  content: "\e763";
+}
+
+.icon-Top:before {
+  content: "\e769";
+}
+
+.icon-video:before {
+  content: "\e76d";
+}
+
+.icon-arrow-down:before {
+  content: "\e7b2";
+}
+
+.icon-account:before {
+  content: "\e7b3";
+}
+
+.icon-search:before {
+  content: "\e7b4";
+}
+
+.icon-heartcard:before {
+  content: "\ec63";
+}
+
+.icon-learning:before {
+  content: "\e6cc";
+}
+
+.icon-haitun:before {
+  content: "\e6c7";
+}
+
+.icon-youxi:before {
+  content: "\ee25";
+}
+
+.icon-guanbi1:before {
+  content: "\e6c9";
+}
+
+.icon-hanhan-01-01:before {
+  content: "\e67b";
+}
+
